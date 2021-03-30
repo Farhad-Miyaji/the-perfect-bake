@@ -1,0 +1,237 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>The Perfect Bake</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="animate.css" rel="stylesheet" type="text/css" />
+    <link href="bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <!--<link href="css/style.css" rel="stylesheet" type="text/css" />-->
+    <link href="menu.css" rel="stylesheet" type="text/css" />
+    <!--Carousel CSS-->
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/2.1.99/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
+    <link href="carousel.css" rel="stylesheet" type="text/css" />
+    <!--Carousel CSS-->
+    <!--Font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <script src="https://kit.fontawesome.com/6939e21315.js" crossorigin="anonymous"></script>
+    <!--Font Awesome Icons-->
+    <asp:contentplaceholder id="head" runat="server">
+    </asp:contentplaceholder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <!--TOP HEADER STARTS-->
+        <div class="container-fluid top-header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-6">
+                        <a href="tel:+919725414376" class="left"><i class="fa fa-phone"></i>&nbsp;+91 97254
+                            14376</a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-6 right">
+                        <a href="https://www.instagram.com/theperfectbake_/?hl=en" class="right"><i class="fa fa-instagram">
+                        </i>&nbsp;theperfectbake_</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--TOP HEADER ENDS-->
+        <!--LOGO AND MENU STARTS-->
+        <div class="container-fluid newheader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-md-4 col-md-8">
+                        <a>
+                            <img src="logo.png" alt="The Perfect Bake" /></a>
+                    </div>
+                    <div class="col-md-8 col-sm-8 col-xs-4">
+                        <div id='cssmenu'>
+                            <div id="head-mobile">
+                            </div>
+                            <div class="button">
+                            </div>
+                            <ul>
+                                <li><a href="index.htm">Home</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Bakes&nbsp;<i class="fa fa-angle-down"></i></a>
+                                    <ul>
+                                        <li><a href="#">Brownies</a> </li>
+                                        <li><a href="#">Cookies</a> </li>
+                                        <li><a href="#">Tres Leches</a> </li>
+                                        <li><a href="#">Blondies</a> </li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--LOGO AND MENU ENDS-->
+        <!-- SLIDER STARTS-->
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 col-sm-12 col-xs-12 pl-0 pr-0">
+                    <div class="triangle">
+                        <h1>
+                            We Prepare with <span>love & care</span></h1>
+                        <a>Grab Yours Now!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--SLIDER ENDS-->
+        <div class="clearfix30">
+        </div>
+        <!--CATEGORIES STARTS-->
+        <div class="container">
+            <div class="row" align="center">
+                <div class="col-md-12 col-sm-12 col-xs-12">
+                    <h1 class="title1">
+                        Best Selling <span class="title2">Products</span></h1>
+                    <div>
+                        <img src="whisk.png" />
+                    </div>
+                </div>
+            </div>
+            <div class="row" align="center">
+                <div class="carousel-gallery">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide best-products">
+                                <a href="brownies.aspx">
+                                    <div class="image" style="background-image: url(kinder-brownies.jpg)">
+                                        <div class="overlay">
+                                            <em class="fa fa-long-arrow-right"></em>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h1 class="color-pink">
+                                    Rich fudgy kinder brownies drizzled with Nutella</h1>
+                            </div>
+                            <div class="swiper-slide best-products">
+                                <a href="#" data-fancybox="gallery">
+                                    <div class="image" style="background-image: url(biscoff-trs-leches.jpg)">
+                                        <div class="overlay">
+                                            <em class="fa fa-long-arrow-right"></em>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h1 class="color-brown">
+                                    Lotus Tres Leches for the Biscoff lovers</h1>
+                            </div>
+                            <div class="swiper-slide best-products">
+                                <a href="#" data-fancybox="gallery">
+                                    <div class="image" style="background-image: url(biscoff-blondies.jpg)">
+                                        <div class="overlay">
+                                            <em class="fa fa-long-arrow-right"></em>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h1 class="color-pink">
+                                    Chewy biscoff blondies with white chocolate chunks</h1>
+                            </div>
+                            <div class="swiper-slide best-products">
+                                <a href="#" data-fancybox="gallery">
+                                    <div class="image" style="background-image: url(spiced-carrot-tres.jpg)">
+                                        <div class="overlay">
+                                            <em class="fa fa-long-arrow-right"></em>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h1 class="color-brown">
+                                    Spiced Carrot Tres Leches Cake</h1>
+                            </div>
+                            <div class="swiper-slide best-products">
+                                <a href="#" data-fancybox="gallery">
+                                    <div class="image" style="background-image: url(kinder-cookies.jpg)">
+                                        <div class="overlay">
+                                            <em class="fa fa-long-arrow-right"></em>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h1 class="color-pink">
+                                    Soft kinder cookies stuffed with an epic hazelnut gooey</h1>
+                            </div>
+                            <div class="swiper-slide best-products">
+                                <a href="#" data-fancybox="gallery">
+                                    <div class="image" style="background-image: url(oreo-brownies.jpg)">
+                                        <div class="overlay">
+                                            <em class="fa fa-long-arrow-right"></em>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h1 class="color-brown">
+                                    Loaded gooey oreo brownies</h1>
+                            </div>
+                            <div class="swiper-slide best-products">
+                                <a href="#" data-fancybox="gallery">
+                                    <div class="image" style="background-image: url(carrot-milkcake.jpg)">
+                                        <div class="overlay">
+                                            <em class="fa fa-long-arrow-right"></em>
+                                        </div>
+                                    </div>
+                                </a>
+                                <h1 class="color-pink">
+                                    Mango & Coconut Milkcake</h1>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--CATEGORIES ENDS-->
+        <div class="clearfix30">
+        </div>
+        <!--BG BAKE STARTS-->
+        <div class="container-fluid bg-bake">
+            <div class="container">
+                <div class="row" align="center">
+                    <h1>
+                        Flavoursome</h1>
+                    <span>Menu Items</span>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-xs-6">
+                        <img src="spiced-carrot=tres.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BG BAKE ENDS-->
+        <!--SWEET BG STARTS-->
+        <div class="container-fluid sweet-bg">
+            <div class="container">
+                <div class="row" align="center">
+                    <span>Sweet For Celebrations</span>
+                    <h1>
+                        The Perfect Bake</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipis cing elit. Nullam id arcu tortor.
+                        Sed eget sit ame egestas, cursus felis quis, vestibulum. Lorem ipsum dolor sit amet,
+                        consectetur adipis cing elit. Nullam id arcu tortor. Sed eget sit ame egestas, cursus
+                        felis quis, vestibulum.</p>
+                    <a href="tel:+919725414376">Call Now & Get Your Order Delivered</a>
+                </div>
+            </div>
+        </div>
+        <!--SWEET BG ENDS-->
+    </div>
+    <script src="jquery.min.js" type="text/javascript"></script>
+    <script src="menu.js" type="text/javascript"></script>
+    <script src="stickyheader.js" type="text/javascript"></script>
+    <!--Carousel JS-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.2.0/js/swiper.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js'></script>
+    <script src="carousel.js" type="text/javascript"></script>
+    <!--Carousel JS-->
+    </form>
+</body>
+</html>
